@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+  <script src="bootstrap-4.0.0-dist/jquery/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+#logo {
+    position: relative;
+	width: 50%;
+}
+#logo img {
+    position: absolute;
+    top: -10px;
+    right: 500px;
+	width: 30%;
+}
+.assest {
+	width: 80%;
+	height: 20%;
+	position: relative;
+	right: -10px;
+	top: 100px;
+}
+body {
+    background-image: url(images/blustrp.jpg);
+    height: auto;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text {
+	position: relative;
+	width: 50%;
+}
+#text {
+	position: absolute;
+    top: 70px;
+    right: 780px;
+	width: 30%;
+}
+.button {
+	position: absolute;
+    bottom: 250px;
+    left: 890px;
+	width: 11%;
+}
+</style>
+
+<body>
+
+<div class="container">
+    <div class="row">
+		<div id="logo">
+			<img src="images/ventlogo.jpg" class="ribbon"/>
+		</div>
+	</div>
+	<div class="row">
+		<div id="text">
+			<h6>* Please enter the Assets details and <u>SUBMIT</u></h6>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+    <div class="row">
+		<div class="assest ">
+			<table class="table table-striped table-bordered table-hover table-condensed">
+				<thead>
+					<tr>
+						<th style="width: 0.05%">#</th>
+						<th style="width: 4%">Assets</th>
+						<th style="width: 0.05%"># Number</th>
+						<th style="width: 3%">Select</th>
+						<th style="width: 0.05%">Comments</th>
+					</tr>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Monitor</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN1">No</option>
+							<option id="ISIN2">Non-Apple</option>
+							<option id="ISIN3">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Mouse</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN4">No</option>
+							<option id="ISIN5">Non-Apple</option>
+							<option id="ISIN6">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Keyboard</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN7">No</option>
+							<option id="ISIN8">Non-Apple</option>
+							<option id="ISIN9">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Combo-Mouse-Keyboard</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN7">No</option>
+							<option id="ISIN8">Non-Apple</option>
+							<option id="ISIN9">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Extra Power Adapter</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN10">No</option>
+							<option id="ISIN11">Yes</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Ethernet Adapter</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN7">No</option>
+							<option id="ISIN8">Non-Apple</option>
+							<option id="ISIN9">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>DVI Adapter</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN7">No</option>
+							<option id="ISIN8">Non-Apple</option>
+							<option id="ISIN9">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>HDMI Cable</td>
+						<td><input type="text" style="width: 100px; border-radius: 8px;"></td>
+						<td><select style="width: 100%">
+							<option id="ISIN7">No</option>
+							<option id="ISIN8">Non-Apple</option>
+							<option id="ISIN9">Apple</option>
+						</select></td>
+						<td><input type="text" style="width: 250px; border-radius: 8px;"></td>
+					</tr>			
+				</tbody>
+			</table>
+			</thead>
+		</div>
+	</thead>
+	</div>	
+</div>
+	<div class="row">
+		<div class="button col-md-2 offset-md-2">
+			<button type="submit" value="Submit" style="width: 100%">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="reset" value="Reset" style="width: 100%">Clear</button>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="secForm.html"><button type="menu" value="Menu" style="width: 100%">Menu</button></a>
+		</div>
+	</div>
+</body>
+</html>

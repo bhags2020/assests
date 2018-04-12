@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap-4.0.0-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="bootstrap-4.0.0-dist/js/date_time.js"></script>
+<style>
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	border-radius:10px;
+	margin-top: -15px; 
+}
+img {
+    width: 100%;
+    float: left;
+	height: 100%;
+}
+.login-form {
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left:10%;
+	transform: translate(-50%,-50%);
+}
+body {
+    background-image: url("images/strips.jpg");
+}
+h1 {
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+}
+</style>
+</head>
+
+<body>
+<center>
+<h1 style="font-size:3vw; background-color:lightblue; color:blue; text-shadow: 3px 2px yellow;"><b>A<small>ssets</small> T<small>racking</small> T<small>ool</small></b>
+</center>&nbsp;&nbsp;<span id="date_time"></span>
+<script type="text/javascript">window.onload = date_time('date_time');</script><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://services.harman.com/" target="_blank" align="right" style="color:blue; text-shadow: 3px 2px yellow;"><small><u>@ By HARMAN</u></small></a></h1>
+
+<div class="container">
+	<div class="row">
+		<div class="span1 logo">
+			<img src="images/ventlogo.jpg">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="login-form col-md-3 offset-md-7">
+			<form>
+				<div class="formgroup">
+					<h6><label>Username</label></h6>
+					<input type="text" placeholder="Enter Username" name="" class="form-control"><br />
+				</div>
+				
+				<div class="formgroup">
+					<h6><label>Password</label></h6>
+					<input type="text" placeholder="Enter Password" name="" class="form-control">
+				</div>
+				
+				<br><button class="btn btn-primary btn-block" style="border-radius: 8px;">Login</button><br />
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
