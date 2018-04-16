@@ -6,7 +6,7 @@
 <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="bootstrap-4.0.0-dist/js/date_time.js"></script>
-<style>
+<style tyep="text/css">
 
 input[type=text], input[type=password] {
     width: 100%;
@@ -17,9 +17,9 @@ input[type=text], input[type=password] {
 	margin-top: -15px; 
 }
 img {
-    width: 100%;
-    float: left;
-	height: 100%;
+    width: 55%;
+    left: 10%;
+	height: auto;
 }
 .login-form {
 	width: 20%;
@@ -29,7 +29,12 @@ img {
 	transform: translate(-50%,-50%);
 }
 body {
-    background-image: url("images/strips.jpg");
+    background-image: url("images/blustrp.jpg");
+	width: auto;
+	height: auto;
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     border-bottom-style: solid;
@@ -41,43 +46,39 @@ div.text-center {
     width: 50%;
 	right: 400px;
 }
+
 </style>
 </head>
 
 <body>
 <center>
-<h1 style="font-size:3vw; background-color:lightblue; color:blue; text-shadow: 3px 2px yellow;"><b>A<small>ssets</small> T<small>racking</small> T<small>ool</small></b>
+<h1 style="font-size:3vw; background-color:lightblue; color:steelblue; text-shadow: 3px 2px yellow;"><b>A<small>ssets</small> T<small>racking</small> T<small>ool</small></b>
 </center>&nbsp;&nbsp;<span id="date_time"></span>
 <script type="text/javascript">window.onload = date_time('date_time');</script><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://services.harman.com/" target="_blank" align="right" style="color:blue; text-shadow: 3px 2px yellow;"><small><u>@ By HARMAN</u></small></a></h1>
 
-<div class="container">
-	<div class="row">
-		<div class="span1 logo">
-			<img src="images/ventlogo.jpg">
-		</div>
+	<div class="span1 logo">
+		<img src="images/ventlogo.jpg">
 	</div>
-
-	<div class="row">
-		<div class="login-form col-md-3 offset-md-7">
-			<form>
-				<div class="formgroup">
-					<h6><label>Username</label></h6>
-					<input type="text" placeholder="Enter Username" name="" class="form-control"><br />
-				</div>
-				
-				<div class="formgroup">
-					<h6><label>Password</label></h6>
-					<input type="text" placeholder="Enter Password" name="" class="form-control">
-				</div>
-				
-				<br><button class="btn btn-primary btn-block" style="border-radius: 50px; background-color: deepskyblue; box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;"><span style="color: black">Login</span></button><br />
-			</form>
+	
+	<div class="login-form col-md-3 offset-md-8">
+	<form>
+		<div class="formgroup">
+			<h6><label>Username</label></h6>
+			<input type="text" placeholder="Enter Username" name="" class="form-control"><br />
 		</div>
-		<div class="text-center col-md-5 col-lg-5">
-            <p class="text-center" style=""><small>© 2018 Copyright: </small><a href="https://services.harman.com"><small><u>https://services.harman.com</u></small></a></p>
-        </div>
+				
+		<div class="formgroup">
+			<h6><label>Password</label></h6>
+			<input type="text" placeholder="Enter Password" name="" class="form-control">
+		</div>
+				
+		<br><button class="btn btn-primary btn-block" style="border-radius: 50px; background-color: deepskyblue; box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;"><span style="color: black">Login</span></button><br />
+	</form>
 	</div>
-</div>
+	
+	<div class="text-center col-md-5 col-lg-5">
+        <p class="text-center" style=""><small>© 2018 Copyright: </small><a href="https://services.harman.com"><small><u>https://services.harman.com</u></small></a></p>
+    </div>
 </body>
 </html>
