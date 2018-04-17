@@ -7,20 +7,16 @@
   <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
 </head>
 <style>
-#logo {
-    position: relative;
-	width: 50%;
-}
+
 #logo img {
     position: absolute;
-    top: -10px;
-    right: 480px;
-	width: 30%;
+    width:25%;
 }
 body {
-    background-image: url(images/blustrp.jpg);
+    background-image: url(images/bubbles.png), url(images/blustrp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 button:focus {
   outline:none;
@@ -31,8 +27,8 @@ button:focus {
 }
 .button-SendEmail {
 	position: absolute;
-	top: 250px;
-    right: 80px;
+	top: 300px;
+	left: -30px;
 	width: 45%;
 	height:0;
 	padding-bottom: 40%;
@@ -41,11 +37,12 @@ button:focus {
 	overflow:hidden;  
 	background: #4679BD;
 	cursor: pointer;
+	box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;
 }
 .button-AddUser {
 	position: absolute;
-	top: 250px;
-    left: 360px;
+	top: 300px;
+    left: 200px;
 	width: 45%;
 	height:0;
 	padding-bottom: 40%;
@@ -54,11 +51,12 @@ button:focus {
 	overflow:hidden;  
 	background: #4679BD;
 	cursor: pointer;
+	box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;
 }
 .button-view {
 	position: absolute;
-	top: 250px;
-    left: 660px;
+	top: 300px;
+    left: 450px;
 	width: 45%;
 	height:0;
 	padding-bottom: 40%;
@@ -67,19 +65,21 @@ button:focus {
 	overflow:hidden;  
 	background: #4679BD;
 	cursor: pointer;
+	box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;
 }
 .button-entr {
 	position: absolute;
-	top: 250px;
-    left: 950px;
+	top: 300px;
+    left: 700px;
 	width: 45%;
 	height:0;
 	padding-bottom: 40%;
 	border-radius: 50%;
-	border:10px solid #cfdcec;
+	border :10px solid #cfdcec;
 	overflow:hidden;  
 	background: #4679BD;
 	cursor: pointer;
+	box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) inset;
 }
 div.text-center {
     position: absolute;
@@ -87,28 +87,30 @@ div.text-center {
     width: 50%;
 	right: 400px;
 }
+
 </style>
 <body>
-<div class="container">
-    <div class="row">
-		<div id="logo">
-			<img src="images/ventlogo.jpg" class="ribbon"/>
-		</div>
+
+	<div id="logo">
+		<img src="images/ventlogo.jpg" class="ribbon"/>
 	</div>
 
-	<div class="row">
-		<div class="button">
-			<a href="QueForm.html"><button class="button-entr" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 45px;"><span style="color: cyan">E</span>NTER</p><p><small>Details</small></p></b></button></a>
-			<button class="button-view" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 45px;"><span style="color: cyan">V</span>IEW</p><p><small>Details</small></p></b></button>
-			<a href="adUsrForm.html"><button class="button-AddUser" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 45px;"><span style="color: cyan">A</span>DD</p><p><small>New User</small></p></b></button></a>
-			<a href="https://webmail.harman.com" target="_blank"><button class="button-SendEmail" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 45px;"><span style="color: cyan">S</span>END</p><p><small>Email</small></p></b></button></a>
-		</div>
+	<div class="button col-md-3 offset-md-4">
+		<a href="QueForm.html"><button class="button-entr" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 60px;"><span style="color: cyan">E</span>NTER</p><p><small>Details</small></p></b></button></a>
+	</div>
+	<div class="button col-md-3 offset-md-3">
+		<button class="button-view" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 60px;"><span style="color: cyan">V</span>IEW</p><p><small>Details</small></p></b></button>
+	</div>
+	<div class="button col-md-3 offset-md-2">
+		<a href="adUsrForm.html"><button class="button-AddUser" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 60px;"><span style="color: cyan">A</span>DD</p><p><small>New User</small></p></b></button></a>
+	</div>
+	<div class="button col-md-3 offset-md-1">
+		<a href="https://webmail.harman.com" target="_blank"><button class="button-SendEmail" style="color:yellow; text-align: center; line-height: .10px;"><b><p style="text-align: center; margin-top: 60px;"><span style="color: cyan">S</span>END</p><p><small>Email</small></p></b></button></a>
+	</div>
 	
-		<div class="text-center col-md-5 col-lg-5">
-            <p class="text-center" style=""><small>© 2018 Copyright: </small><a href="https://services.harman.com"><small><u>https://services.harman.com</u></small></a></p>
-        </div>
-	</div>
-
-</div>
+	<div class="text-center col-md-5 col-lg-5">
+        <p class="text-center" style=""><small>© 2018 Copyright: </small><a href="https://services.harman.com" target="_blank"><small><u>https://services.harman.com</u></small></a></p>
+    </div> 
+ 
 </body>
 </html>
